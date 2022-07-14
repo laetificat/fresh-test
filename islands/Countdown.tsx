@@ -2,7 +2,7 @@
 import { h } from "preact";
 import { useEffect, useState } from "preact/hooks";
 
-const timeFmt = new Intl.RelativeTimeFormat("nl-NL");
+const timeFmt = new Intl.RelativeTimeFormat("en-US");
 
 /**
  * Creates a countdown based on given target.
